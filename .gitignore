@@ -1,0 +1,18 @@
+# Maven
+backend/target/
+*.class
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Local environment
+.env
+frontend/.env

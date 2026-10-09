@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "WarrantyOS: Start all",
+      "type": "shell",
+      "command": "cmd",
+      "args": ["/c", "scripts\\start-all.cmd"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": [],
+      "group": {"kind": "build", "isDefault": true},
+      "presentation": {"reveal": "always", "panel": "shared", "clear": false}
+    },
+    {
+      "label": "WarrantyOS: Start MySQL",
+      "type": "shell",
+      "command": "cmd",
+      "args": ["/c", "scripts\\start-mysql.cmd"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "WarrantyOS: Start backend",
+      "type": "shell",
+      "command": "cmd",
+      "args": ["/k", "scripts\\run-backend.cmd"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "WarrantyOS: Start frontend",
+      "type": "shell",
+      "command": "cmd",
+      "args": ["/k", "scripts\\run-frontend.cmd"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "WarrantyOS: Stop all",
+      "type": "shell",
+      "command": "cmd",
+      "args": ["/c", "scripts\\stop-all.cmd"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    }
+  ]
+}

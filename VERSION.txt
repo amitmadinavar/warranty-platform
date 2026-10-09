@@ -1,0 +1,6 @@
+WarrantyOS Stable Build
+Version: 2.0-stable
+Prepared: 2026-10-07
+Architecture: React/Vite frontend + Spring Boot backend + MySQL + JWT + WebSocket
+Backend path: backend/
+Frontend path: frontend/

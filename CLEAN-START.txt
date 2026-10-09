@@ -1,0 +1,14 @@
+STOP — READ THIS ONCE
+
+Use THIS folder as the project root:
+    D:\WarrantyOS
+
+Do NOT merge files from any older folder such as:
+    D:\Warranty-platform
+    D:\WarrantyOS-final-fixed
+    D:\warranty-platform
+
+Open the ROOT folder in VS Code, not backend or frontend alone.
+Then press Ctrl+Shift+B and choose WarrantyOS: Start all.
+
+If the startup task says the project structure is stale, you opened/mixed an older copy.

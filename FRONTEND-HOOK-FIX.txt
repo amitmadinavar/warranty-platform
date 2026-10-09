@@ -1,0 +1,1 @@
+Fixed React Rules of Hooks error: Login now calls useStoredUser() at component top level rather than inside useEffect. The previous error at main.jsx:63 is resolved.
